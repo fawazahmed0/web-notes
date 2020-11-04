@@ -7,6 +7,11 @@ parcel index.html
 and open the given link to see module importing/working
 
 
+to build for production:
+parcel build index.html
+files will be in dist, serve those files through http serve to see the magic
+
+
 
 
 
