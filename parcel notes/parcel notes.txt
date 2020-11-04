@@ -1,0 +1,27 @@
+refer example folder
+
+https://github.com/parcel-bundler/parcel ,see example there:
+
+run
+parcel index.html
+and open the given link to see module importing/working
+
+
+
+
+
+
+
+
+
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+(Important note)
+module features are imported into the scope of a single script — they aren't available in the global scope. Therefore, you will only be able to access imported features in the script they are imported into, and you won't be able to access them from the JavaScript console
+
+
+Also see example for script type="module"
+https://javascript.info/modules-intro
+

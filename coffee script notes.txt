@@ -1,0 +1,12 @@
+
+https://coffeescript.org/#cli
+
+build the  https://github.com/qiao/difflib.js/difflib.coffee using 
+coffee --compile --output lib/ src/
+
+https://coffeescript.org/#transpilation
+I can also transpile using babel
+
+npm install --save-dev @babel/core @babel/preset-env
+echo { "presets": ["@babel/env"] } > .babelrc
+coffee --compile --transpile --output lib/ src/
