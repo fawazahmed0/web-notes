@@ -6,13 +6,15 @@ run
 parcel index.html
 and open the given link to see module importing/working
 
+use --https flag to test modules etc which only works on https
+parcel index.html --https
 
 to build for production:
 parcel build index.html
 files will be in dist, serve those files through http serve to see the magic
 
 or in a specific folder
-parcel build index3.html -d foldername
+parcel build index.html -d foldername
 
 
 
