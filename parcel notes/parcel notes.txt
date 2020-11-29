@@ -11,6 +11,8 @@ to build for production:
 parcel build index.html
 files will be in dist, serve those files through http serve to see the magic
 
+or in a specific folder
+parcel build index3.html -d foldername
 
 
 
