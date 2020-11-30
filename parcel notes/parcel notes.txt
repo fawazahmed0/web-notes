@@ -17,7 +17,12 @@ or in a specific folder
 parcel build index.html -d foldername
 
 
+For askgod https://github.com/fawazahmed0/askgod project, I have set /docs folder for pushing the site.
+I did the build using: parcel build index.html -d docs --public-url ./
+public url flag is important when you have project under fawazahmed0.github.io/projectname url, 
+you can see the effect of public-url flag by opening index.html in editor and checking the links location
 
+In case of any error, open console to see for any issues
 
 
 
