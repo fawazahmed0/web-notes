@@ -27,6 +27,8 @@ you can see the effect of public-url flag by opening index.html in editor and ch
 In case of any error, open console to see for any issues
 
 
+refer https://parceljs.org/cli.html for more details
+
 
 
 
