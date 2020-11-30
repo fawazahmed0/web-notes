@@ -18,6 +18,8 @@ parcel build index.html -d foldername
 
 
 For askgod https://github.com/fawazahmed0/askgod project, I have set /docs folder for pushing the site.
+https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
 I did the build using: parcel build index.html -d docs --public-url ./
 public url flag is important when you have project under fawazahmed0.github.io/projectname url, 
 you can see the effect of public-url flag by opening index.html in editor and checking the links location
