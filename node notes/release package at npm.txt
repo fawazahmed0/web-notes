@@ -1,0 +1,42 @@
+
+https://dev.to/therealdanvega/creating-your-first-npm-package-2ehf
+
+https://bugfender.com/blog/how-to-create-an-npm-package/
+
+npm init
+
+give all the details & also give unique package name not existing in npm registry
+
+In the main code, export it using:
+module.exports.functionName = functionName;
+
+
+(I also added the dependecies, though not required, similar to https://github.com/fawazahmed0/quran-videos/blob/65d13645073b5af415efc7dea2e75fcba6b1262d/package.json#L6)
+
+run the below command from the root of project
+
+
+npm link
+
+npm link your-package-name
+
+
+
+Puslihing:
+
+if doing first time, then:
+npm adduser
+
+
+npm publish
+
+
+Now you can install it:
+npm install your-package-name
+
+
+
+To update the package:
+update the version in package.json
+and then:
+npm publish
