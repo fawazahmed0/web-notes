@@ -1,5 +1,5 @@
 refer example folder
-
+Note: sometimes import $ from 'jquery' will not work, you will have to do npm install jquery  (i.e without global -g flag)
 https://github.com/parcel-bundler/parcel ,see example there:
 
 run
