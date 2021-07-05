@@ -37,6 +37,7 @@ npm install your-package-name
 
 
 To update the package:
-update the version in package.json
-and then:
+update the version in package.json by:
+npm version patch         (or you can use minor or major)  (ref: https://docs.npmjs.com/updating-your-published-package-version-number)
+
 npm publish
