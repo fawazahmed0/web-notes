@@ -1,0 +1,4 @@
+create a script.mjs and in that use import and run using script.mjs  
+(requires node v16+)  (example: https://nft.storage/docs/#using-the-javascript-api)
+
+If you are using require('module'), then import will not work, then you can use dynamic import, see this exmaple: https://github.com/fawazahmed0/expressapi/blob/main/app.js
