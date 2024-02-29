@@ -3,7 +3,7 @@ https://dev.to/therealdanvega/creating-your-first-npm-package-2ehf
 
 https://bugfender.com/blog/how-to-create-an-npm-package/
 
-npm init
+npm init  or   npm init --scope=@my-username
 
 give all the details & also give unique package name not existing in npm registry
 
