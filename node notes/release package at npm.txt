@@ -28,7 +28,7 @@ if doing first time, then:
 npm adduser
 
 
-npm publish
+npm publish  or  npm publish --access public
 
 
 Now you can install it:
